@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: asks-before-starting
+expected_outcome: |
+  The first reply interviews instead of starting the review: three or fewer numbered questions about the real gaps (audience, inputs, decision or done criteria), each with example answers, and no question about what the user already gave (the task and the Q1 timing).
