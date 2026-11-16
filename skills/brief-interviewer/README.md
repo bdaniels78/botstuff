@@ -1,5 +1,7 @@
 # Brief Interviewer
 
+**[Download the skill for Claude](https://github.com/bdaniels78/botstuff/raw/claude/dreamy-wright-a9hv5k/skills/brief-interviewer.skill)** · [Copy the version for other AI tools](brief-interviewer-instructions.txt)
+
 A Claude skill for people who need to hand a complex task to AI. Instead of guessing, Claude interviews you for the context only you know, then writes a complete brief.
 
 ## What it does
@@ -14,8 +16,10 @@ If your request already covers everything, it skips the questions.
 
 ## Install
 
-- **Claude:** download `brief-interviewer.skill` and add it under Settings > Capabilities > Skills, or copy this folder into your skills folder.
-- **ChatGPT, Copilot, Jasper or Gemini:** paste `brief-interviewer-instructions.txt` into a custom GPT, agent, app or Gem.
+No GitHub account needed.
+
+- **Claude:** [download brief-interviewer.skill](https://github.com/bdaniels78/botstuff/raw/claude/dreamy-wright-a9hv5k/skills/brief-interviewer.skill), then add it in Claude under Settings > Capabilities > Skills.
+- **ChatGPT, Copilot, Jasper or Gemini:** open [brief-interviewer-instructions.txt](brief-interviewer-instructions.txt), copy the text, and paste it into the instructions of a custom GPT, agent, app or Gem.
 
 ## Try it
 
