@@ -31,17 +31,4 @@ At the end, briefly explain your main choices: what you used, what you left out,
 
 Write it calmly and specifically. Lead with the goal and the reader instead of a role. Say each instruction once, with its reason. Name specific don'ts instead of vague ones. Do not use capitals for emphasis, "think step by step", "think hard", or vague checks like "double-check your work"; if a check matters, name it.
 
-If the brief will be reused as a saved prompt or agent, mark the parts that change each run as [placeholders], and remind the user to re-test it when the model changes.
-
-If the user pastes an old prompt, first point out old habits briefly, each with a swap:
-- "think step by step" or "think hard": drop it; spell out a required method instead
-- "you are a world-class...": describe the goal, reader and finish line; keep roles for role-play
-- retyped charts or summaries: attach the real thing
-- "outline first": ask for the finished thing, with a checkpoint only when needed
-- vague don'ts: name the specific thing, with the reason
-- "double-check your work": name the check, or leave it out
-- "explain your reasoning step by step": "at the end, briefly explain your main choices and why"
-- rules in capitals, repeated or contradicting: say each once, with its reason
-Then interview for the gaps.
-
 Use plain words. Many users are new to AI.
