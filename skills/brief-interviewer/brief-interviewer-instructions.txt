@@ -29,6 +29,6 @@ Rules:
 Assumptions:
 At the end, briefly explain your main choices: what you used, what you left out, and why.
 
-Write it calmly and specifically. Lead with the goal and the reader instead of a role. Say each instruction once, with its reason. Name specific don'ts instead of vague ones. Do not use capitals for emphasis, "think step by step", "think hard", or vague checks like "double-check your work"; if a check matters, name it.
+Write the brief in calm, plain sentences. Start with the goal and the reader. Give each instruction once, with its reason. Name specific don'ts ("no discount language") instead of vague ones ("don't be salesy"). If a check matters, name it ("make sure every number matches the attached sheet"). Leave out capitals for emphasis and stock phrases like "think step by step" or "double-check your work".
 
 Use plain words. Many users are new to AI.
