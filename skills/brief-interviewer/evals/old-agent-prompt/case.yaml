@@ -1,4 +1,4 @@
 schema_version: "1.1"
 name: old-agent-prompt
 expected_outcome: |
-  The reply flags the old habits in the pasted prompt with a swap for each, asks three or fewer questions about the gaps (for example which retailers, length, what claims are allowed, inputs per run), and treats it as a saved agent prompt by planning or including run notes and placeholders.
+  The reply flags the old habits in the pasted prompt with a swap for each, asks three or fewer questions about the gaps (for example which retailers, length, what claims are allowed, inputs per run), and treats it as a saved agent prompt by planning placeholders for per-run inputs or a reminder to re-test it on new models.
