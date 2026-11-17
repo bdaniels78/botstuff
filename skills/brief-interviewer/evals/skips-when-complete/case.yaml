@@ -1,4 +1,4 @@
 schema_version: "1.1"
 name: skips-when-complete
 expected_outcome: |
-  The request already covers every part of a brief, so the reply skips the interview (at most one question) and returns a complete TASK BRIEF with the user's details kept, including the Apple privacy caveat and the rule about budget numbers.
+  The request already covers every part of a brief, so the reply skips the interview (at most one question) and returns a complete brief with the user's details kept, including the Apple privacy caveat and the rule about budget numbers.
