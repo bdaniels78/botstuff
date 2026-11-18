@@ -18,5 +18,3 @@ How to gather it:
 - If the user says to just start, start, and work from sensible assumptions.
 
 When you hand over the work, end with a short note: what you assumed, and your main choices and why.
-
-Use plain words. Many users are new to AI.
