@@ -18,7 +18,19 @@ If your request already covers everything, it skips the questions.
 No GitHub account needed.
 
 - **Claude:** [download brief-interviewer.skill](https://github.com/bdaniels78/botstuff/raw/claude/dreamy-wright-a9hv5k/skills/brief-interviewer.skill), then add it under Settings > Capabilities > Skills.
-- **ChatGPT, Copilot, Jasper or Gemini:** open [brief-interviewer-instructions.txt](brief-interviewer-instructions.txt), copy the text, and paste it into the instructions of a custom GPT, agent, app or Gem. This shorter version runs the interview and writes the brief. It does not review old prompts or set up saved prompts.
+- **ChatGPT, Copilot, Jasper or Gemini:** open [brief-interviewer-instructions.txt](brief-interviewer-instructions.txt), copy the text, and paste it into the instructions of a custom GPT, agent, app or Gem. This version asks for whatever is missing, then does the task itself. It does not review old prompts or write a brief for later.
+
+## Fill it in yourself
+
+Already know the answers? Start your message with these five lines and the AI will skip the questions:
+
+```
+Goal:
+It's for:
+Done looks like:
+Material: (attach it)
+Rules:
+```
 
 ## Try it
 
