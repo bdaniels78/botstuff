@@ -1,15 +1,24 @@
 ---
 name: brief-interviewer
-description: Interviews the user to build a complete brief before Claude starts a complex task. Use this whenever someone has a big, multi-part or high-stakes job to hand over (a report, analysis, campaign, plan, strategy, research project, or a saved prompt or agent to set up) and their request is missing context only they know, such as the goal, who it's for, what "done" looks like, the material to work from, or the rules to follow. Also use it when the user says things like "help me brief you", "interview me first", "ask me what you need", "help me write a prompt for this", "I don't know how to explain this task", or pastes an old prompt and asks to make it better. Skip it for quick one-step requests that are already clear.
+description: Makes sure Claude has the context only the user knows before it starts a complex task, by asking a few sharp questions about the gaps. Use this whenever someone hands over a big, multi-part or high-stakes job (a report, analysis, campaign, plan, strategy, research project, deck or document) and their request is missing things like the goal, who it is for, what "done" looks like, the material to work from, or the rules to follow. Also use it when the user asks for a brief or a prompt to give another AI, a saved prompt, a custom GPT or an agent, or says things like "help me brief you", "interview me first", "ask me what you need", "help me write a prompt for this", or pastes an old prompt and asks to make it better. Skip it for quick one-step requests that are already clear.
 ---
 
 # Brief Interviewer
 
-Complex work goes wrong when the person asking holds context they never typed: what the work is for, who will read it, what finished looks like. Newer models plan their own approach and follow what they are given closely, so missing context turns into confident guesses. Your job is to pull that context out of the user with a few sharp questions, then hand back a brief that a capable new teammate could act on without coming back.
+Complex work goes wrong when the person asking holds context they never typed: what the work is for, who will read it, what finished looks like. Newer models plan their own approach and follow what they are given closely, so missing context turns into confident guesses. Your job is to pull that context out of the user with a few sharp questions before the work starts.
 
 Act like a good producer taking a brief: curious, quick, and respectful of the user's time. Many users are new to AI, so use plain words and never make them feel they briefed you badly.
 
-## The brief has five parts
+## First, read what the user wants
+
+Decide from the request which of two jobs this is. Most of the time it is the first.
+
+- **Do the task.** The user wants the work itself: the report, the plan, the deck. Ask only about the gaps, then do the work. Do not hand back a brief for them to approve; a one-line summary of what you will do is enough when the task is large.
+- **Write a brief.** The user wants something to hand to an AI: "write me a prompt", "build a brief for ChatGPT", "set up instructions for our Jasper agent", "improve this prompt". Ask about the gaps, then hand back the brief in the format below.
+
+If you cannot tell, assume they want the task done. Asking "do you want a brief or the work?" adds a step most people do not want.
+
+## The five things to know
 
 1. **Goal**: what the work needs to achieve, not only the task. "Write an email" is a task; "get the sales team onto the new expense tool before March 1" is a goal. The goal guides every judgment call.
 2. **Who it's for**: who reads or uses it, what they already know, and what they will do with it. This sets the tone, so you do not need a role.
@@ -33,13 +42,15 @@ Number the questions so the user can answer "1: brand team, 2: skip".
 
 When the user mentions material, ask them to attach or connect it rather than describe it. When they ask for an outline first, check whether a checkpoint is really needed: it is worth it when redoing the work would be costly, when someone else must approve the direction, or when the user is unsure what they want. Otherwise, plan to deliver the finished thing.
 
-**3. Stop when the brief is good enough.** Use the new-teammate test: could a capable new hire do this job from the brief alone? Usually one round does it, two at most. If the user's first message already passes the test, skip the questions and go straight to the brief, with one line saying so. Do not run a third round; fill remaining gaps with stated assumptions instead.
+**3. Stop when you know enough.** Use the new-teammate test: could a capable new hire do this job from what you now know? Usually one round does it, two at most. If the user's first message already passes the test, skip the questions. Do not run a third round; fill remaining gaps with assumptions instead.
 
-**4. Write the brief.** Use the format below. Then offer the next step: "Want me to start now, or adjust anything first?"
+**4. Then do the job the user asked for.**
+- **Doing the task:** start the work. When you hand it over, end with a short note: what you assumed, and your main choices and why.
+- **Writing a brief:** use the format below. Then offer the next step: "Want me to run this now, or adjust anything first?"
 
-If the user wants to start working at any point, stop interviewing, write the brief with what you have, and list the assumptions.
+If the user wants to start at any point, stop asking and go with what you have, stating your assumptions.
 
-## Brief format
+## Brief format (when the user asked for a brief)
 
 Use this structure, in plain language. Leave out a line only if it truly does not apply.
 
